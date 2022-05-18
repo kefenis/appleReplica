@@ -1,0 +1,589 @@
+/* my project */
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+
+/* Header Style starts here */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+  margin-right: 8px;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  /* border-bottom: 1px solid #4b4b4b; */
+}
+.navbar .navbar-brand {
+  /* to have space in between apple logo and Mac menubare */
+  padding-right: 40px;
+}
+/* footer style */
+.someClass {
+  /* display: none; */
+  background-color: red;
+}
+
+/* Section styling starts here */
+/* Covid description */
+.covid19 {
+  background-color: #0071e3;
+  margin-top: 60px;
+  padding: 18px;
+  text-align: center;
+}
+.covid19 a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 0.7em;
+}
+.covid19 a:hover {
+  text-decoration: underline;
+}
+/* shop online ad */
+.shopOnline {
+  padding: 20px;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+/* first Section styling */
+
+.first-section {
+  background-color: black;
+}
+.first-section-wrapper .title-wrapper {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  font-size: 28px;
+}
+.first-section-wrapper .description-wraper {
+  color: white;
+  text-align: center;
+}
+.first-section-wrapper .links-wrapper {
+  padding-bottom: 10px;
+}
+/* links wrapper */
+.links-wrapper {
+  padding: 15px 0;
+  text-align: center;
+}
+.links-wrapper ul li {
+  display: inline-block;
+  /* text-align: center; */
+  padding-right: 20px;
+}
+.links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+  font-size: 18px;
+}
+.links-wrapper ul li a:hover {
+  text-decoration: underline;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 5px;
+}
+
+.title-wrapper {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  font-size: 28px;
+  /* padding: 0 auto 20px; */
+  /* margin-bottom: 20px; */
+}
+
+.order {
+  text-align: center;
+  color: #86868b;
+  font-size: 18px;
+}
+.first-section-wrapper .advert {
+  padding-top: 360px;
+}
+/* small screen size */
+@media (max-width: 768px) {
+  .first-section-wrapper {
+    /* padding-left: -100.5px; */
+    position: relative;
+
+    /* width: 682px; */
+    width: auto;
+    height: 648px;
+    background-size: auto 668px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Home/smallScreen/hero-updated__erg20p587zma_small_2x.jpg");
+  }
+}
+/*for medium screen Size */
+@media (max-width: 1068px) and (min-width: 769px) {
+  .first-section-wrapper {
+    /* width: 1068px; */
+    height: 668px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Home/mediumScreen/hero1_updated_main_medium1.jpg");
+  }
+}
+/* for Large Screen size */
+@media (min-width: 1068px) {
+  .first-section-wrapper {
+    height: 668px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/largScreen/hero-updated__large1.jpg");
+  }
+}
+/* Second section styling */
+.second-section-wrapper {
+  text-align: center;
+}
+.second-section-wrapper .title-wrapper {
+  font-weight: 700;
+  font-size: 28px;
+  color: black;
+}
+/* small screen size */
+@media (max-width: 768px) {
+  .second-section-wrapper {
+    height: 648px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Home/smallScreen/hero2-updated__small-2.jpg");
+  }
+  .second-section-wrapper .advert {
+    padding-top: 340px;
+  }
+}
+
+/*for medium screen Size */
+@media (max-width: 1068px) and (min-width: 769px) {
+  .second-section-wrapper {
+    /* width: 1068px; */
+    height: 668px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Home/mediumScreen/hero2-updated__Second_medium2.jpg");
+  }
+  .second-section-wrapper .advert {
+    padding-top: 396px;
+  }
+}
+/* for Large Screen size */
+@media (min-width: 1068px) {
+  .second-section-wrapper {
+    /* width: 3010px;
+   background-size: 3010px 710px; */
+    height: 668px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/largScreen/hero-updated__large-2.jpg");
+  }
+  .second-section-wrapper .advert {
+    padding-top: 400px;
+  }
+}
+/* third Section wrapper */
+.third-section {
+  background-color: black;
+}
+.third-section-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: -70px;
+}
+.watch-advert {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+}
+.watch-icon-wrapper {
+  position: relative;
+  padding-top: 30px;
+}
+
+/* small screen size */
+@media (max-width: 768px) {
+  .third-section-wrapper {
+    height: 648px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Home/smallScreen/hero3__small-3.jpg");
+  }
+}
+
+/*for medium screen Size */
+@media (max-width: 1068px) and (min-width: 769px) {
+  .third-section-wrapper {
+    height: 668px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/mediumScreen/hero3-updated_main_medium3.jpg");
+  }
+  .second-section-wrapper .advert {
+    padding-top: 396px;
+  }
+}
+/* for Large Screen size */
+@media (min-width: 1068px) {
+  .third-section-wrapper {
+    height: 668px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/largScreen/hero__large3.jpg");
+  }
+}
+
+/* fourth section */
+.fourth-section-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 70px;
+}
+/* left side */
+/* small screen size */
+@media (max-width: 768px) {
+  .fourth-section-wrapper .left-side-wrapper {
+    height: 648px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Home/smallScreen/apple4_event_small4.jpg");
+  }
+}
+
+/*for medium screen Size */
+@media (max-width: 1068px) and (min-width: 769px) {
+  .fourth-section-wrapper .left-side-wrapper {
+    height: 668px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/mediumScreen/apple4_event_medium-left-4.jpg");
+  }
+}
+/* for Large Screen size */
+@media (min-width: 1068px) {
+  .fourth-section-wrapper .left-side-wrapper {
+    height: 668px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/largScreen/apple_event_large-left-4.jpg");
+  }
+}
+
+/* right side */
+/* small screen size */
+@media (max-width: 768px) {
+  .fourth-section-wrapper .right-side-wrapper {
+    height: 648px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Home/smallScreen/tile_small-4.jpg");
+  }
+}
+
+/*for medium screen Size */
+
+@media (max-width: 1068px) and (min-width: 769px) {
+  .fourth-section-wrapper .right-side-wrapper {
+    height: 668px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/mediumScreen/tile_medium-right-4.jpg");
+  }
+}
+/* for Large Screen size */
+@media (min-width: 1068px) {
+  .fourth-section-wrapper .right-side-wrapper {
+    height: 668px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/largScreen/tile__large-right-4.jpg");
+  }
+}
+
+/* fifth section Styling */
+@media (max-width: 768px) {
+  .fifth-section-wrapper .left-side-wrapper {
+    height: 648px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Home/smallScreen/tile_small-left-5.jpg");
+  }
+}
+
+/*for medium screen Size */
+@media (max-width: 1068px) and (min-width: 769px) {
+  .fifth-section-wrapper .left-side-wrapper {
+    height: 668px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/mediumScreen/tile__medium-left-5.jpg");
+  }
+}
+/* for Large Screen size */
+@media (min-width: 1068px) {
+  .fifth-section-wrapper .left-side-wrapper {
+    height: 668px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/largScreen/tile__large-left-5.jpg");
+  }
+}
+
+/* right side */
+/* small screen size */
+@media (max-width: 768px) {
+  .fifth-section-wrapper .right-side-wrapper {
+    height: 648px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Home/smallScreen/tile_small-right-5.jpg");
+  }
+}
+
+/*for medium screen Size */
+
+@media (max-width: 1068px) and (min-width: 769px) {
+  .fifth-section-wrapper .right-side-wrapper {
+    height: 668px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/mediumScreen/tile__medium-right-5.jpg");
+  }
+}
+/* for Large Screen size */
+@media (min-width: 1068px) {
+  .fifth-section-wrapper .right-side-wrapper {
+    height: 668px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/largScreen/tile__large-right-5.jpg");
+  }
+}
+
+/* section six styling */
+@media (max-width: 768px) {
+  .sixth-section-wrapper .left-side-wrapper {
+    height: 648px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Home/smallScreen/tile_small-left-6.jpg");
+  }
+}
+
+/*for medium screen Size */
+@media (max-width: 1068px) and (min-width: 769px) {
+  .sixth-section-wrapper .left-side-wrapper {
+    height: 668px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/mediumScreen/tile__medium-left-6.jpg");
+  }
+}
+/* for Large Screen size */
+@media (min-width: 1068px) {
+  .sixth-section-wrapper .left-side-wrapper {
+    height: 668px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/largScreen/tile__large-left-6.jpg");
+  }
+}
+
+/* right side */
+/* small screen size */
+@media (max-width: 768px) {
+  .sixth-section-wrapper .right-side-wrapper {
+    height: 648px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Home/smallScreen/tile_small-right-6.jpg");
+  }
+}
+
+/*for medium screen Size */
+
+@media (max-width: 1068px) and (min-width: 769px) {
+  .sixth-section-wrapper .right-side-wrapper {
+    height: 668px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/mediumScreen/tile__medium-right-6.jpg");
+  }
+}
+/* for Large Screen size */
+@media (min-width: 1068px) {
+  .sixth-section-wrapper .right-side-wrapper {
+    height: 668px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/Home/largScreen/tile__large-right-6.jpg");
+  }
+}
+
+/* Section styling ends here */
+/* Footer section  styling starts here */
+
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+  border-bottom: 1px solid #d2d2d7;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+/* MediaQuery for footer*/
+/* To hide the border line when screen size
+ reaches 768px */
+@media (max-width: 768px) {
+  .my-apple-wrapper {
+    border-bottom: none;
+  }
+}
+/* Footer */
+/* To hide while on smaller screen size */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  /* ......... */
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px dotted #86868b;
+  }
+
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    /* "\f067"; */ /* fontAwsome icon for + sign */
+    padding-left: 10px;
+    position: absolute;
+    font-weight: 300;
+    right: 25px;
+    color: #86868b;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+}
+/* used in jQuery to diplay the footer links that has been 
+hidden on smaller screen */
+.displayClass {
+  display: block;
+}
